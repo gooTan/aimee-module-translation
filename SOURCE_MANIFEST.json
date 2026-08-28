@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "module": "translation",
+  "classification": "required",
+  "execution": "core",
+  "runtime": null,
+  "placements": [
+    "server",
+    "kb"
+  ],
+  "principal_class": null,
+  "principal_ref": null,
+  "stages": [],
+  "source_sha256": "b3a941164c859f1f3583e5e8f7b862cc8d8d913ba3c309df9c01c442ae922374",
+  "owned_files": [
+    "src/modules/translation/module.yaml",
+    "src/modules/translation/aimee_backend_anthropic.c",
+    "src/modules/translation/aimee_backend_bedrock.c",
+    "src/modules/translation/aimee_backend_openai.c",
+    "src/modules/translation/aimee_backend_responses.c",
+    "src/modules/translation/aimee_frontend_anthropic.c",
+    "src/modules/translation/aimee_frontend_openai.c",
+    "src/modules/translation/aimee_frontend_responses.c",
+    "src/modules/translation/aimee_ir_stream.c",
+    "src/modules/translation/include/aimee/translation/aimee_backend.h",
+    "src/modules/translation/include/aimee/translation/aimee_frontend.h",
+    "src/modules/translation/include/aimee/translation/aimee_ir_stream.h",
+    "src/tests/test_aimee_backend.c",
+    "src/tests/test_aimee_backend_bedrock.c",
+    "src/tests/test_aimee_converse_stream.c",
+    "src/tests/test_aimee_frontend.c",
+    "src/tests/test_aimee_ir_stream.c",
+    "docs/modules/translation.md"
+  ]
+}
